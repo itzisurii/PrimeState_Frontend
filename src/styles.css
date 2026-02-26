@@ -2,8 +2,6 @@
 
 @import "tailwindcss";
 
-
-
 ::-webkit-scrollbar {
     width: 6px;
 }
@@ -56,7 +54,6 @@
 
 .card-dark-revenue {
     background-color: #1e1226;
-    /* Matches your sidebar-surface */
     color: #ffffff;
 }
 
@@ -64,7 +61,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-@import "tailwindcss";
+/* --------------------- */
 
 @theme {
     /* Brand Colors */
