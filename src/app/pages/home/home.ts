@@ -5,11 +5,12 @@ import { FeaturedCollections } from "../../components/featured-collections/featu
 import { PrimeLocation } from "../../components/prime-location/prime-location";
 import { TrustedByInvestors } from "../../components/trusted-by-investors/trusted-by-investors";
 import { Footer } from "../../components/footer/footer";
+import { Chatbot } from "../../components/chatbot/chatbot";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavBar, Hero, FeaturedCollections, PrimeLocation, TrustedByInvestors, Footer],
+  imports: [NavBar, Hero, FeaturedCollections, PrimeLocation, TrustedByInvestors, Footer, Chatbot],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
