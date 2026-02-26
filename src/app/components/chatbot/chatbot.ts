@@ -1,0 +1,12 @@
+import { Component, EventEmitter, Output } from '@angular/core';
+
+@Component({
+  selector: 'app-chatbot',
+  standalone: true,
+  imports: [],
+  templateUrl: './chatbot.html',
+  styleUrl: './chatbot.css',
+})
+export class Chatbot {
+  @Output() close = new EventEmitter<void>();
+}
