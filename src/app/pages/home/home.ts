@@ -10,7 +10,7 @@ import { Chatbot } from "../../components/chatbot/chatbot";
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavBar, Hero, FeaturedCollections, PrimeLocation, TrustedByInvestors, Footer, Chatbot],
+  imports: [NavBar, Hero, FeaturedCollections, PrimeLocation, TrustedByInvestors, Footer],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
