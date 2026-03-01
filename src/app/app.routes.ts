@@ -21,7 +21,7 @@ import { EarningHeader } from './layout/headers/earning-header/earning-header';
 export const routes: Routes = [
     {
         path: '',
-        component: Home,
+        component: AppLayout,
         children: [
 
             // ===== DASHBOARD =====
