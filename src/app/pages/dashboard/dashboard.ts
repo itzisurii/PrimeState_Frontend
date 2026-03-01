@@ -4,7 +4,7 @@ import { DashboardHero } from "../../components/dashboard-hero/dashboard-hero";
 
 @Component({
   selector: 'app-dashboard',
-  imports: [DashboardHero, SideBar],
+  imports: [DashboardHero],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.css',
 })
