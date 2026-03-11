@@ -1,0 +1,388 @@
+<main class="flex-1 flex flex-col min-w-0 overflow-hidden bg-background-light relative">
+    <div class="flex-1 overflow-y-auto p-6 md:p-8 scroll-smooth">
+        <div class="mx-auto max-w-7xl space-y-6">
+            <div class="bg-white p-5 rounded-2xl shadow-soft border border-slate-100 flex flex-wrap items-center gap-4">
+                <div class="flex-1 min-w-50">
+                    <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 ml-1">Search
+                        Properties</label>
+                    <div class="relative">
+                        <span
+                            class="absolute left-3 top-2.5 text-slate-400 material-symbols-outlined text-[18px]">search</span>
+                        <input
+                            class="w-full h-10 pl-10 pr-4 rounded-xl border-slate-200 text-sm focus:border-primary focus:ring-primary/20 bg-slate-50/50"
+                            placeholder="By name, ID or address..." type="text" />
+                    </div>
+                </div>
+                <div class="w-48">
+                    <label
+                        class="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 ml-1">Property
+                        Type</label>
+                    <select
+                        class="w-full h-10 rounded-xl border-slate-200 text-sm focus:border-primary focus:ring-primary/20 bg-slate-50/50">
+                        <option>All Types</option>
+                        <option>Villas</option>
+                        <option>Penthouses</option>
+                        <option>Apartments</option>
+                        <option>Townhouses</option>
+                    </select>
+                </div>
+                <div class="w-48">
+                    <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 ml-1">Area /
+                        Community</label>
+                    <select
+                        class="w-full h-10 rounded-xl border-slate-200 text-sm focus:border-primary focus:ring-primary/20 bg-slate-50/50">
+                        <option>All Areas</option>
+                        <option>Palm Jumeirah</option>
+                        <option>Downtown Dubai</option>
+                        <option>Dubai Marina</option>
+                        <option>Emirates Hills</option>
+                    </select>
+                </div>
+                <div class="w-40">
+                    <label class="block text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1 ml-1">Price
+                        Range</label>
+                    <select
+                        class="w-full h-10 rounded-xl border-slate-200 text-sm focus:border-primary focus:ring-primary/20 bg-slate-50/50">
+                        <option>Any Price</option>
+                        <option>AED 1M - 5M</option>
+                        <option>AED 5M - 15M</option>
+                        <option>AED 15M+</option>
+                    </select>
+                </div>
+                <div class="flex items-end self-stretch pt-5">
+                    <button
+                        class="h-10 px-4 rounded-xl border border-slate-200 hover:bg-slate-50 text-slate-600 transition-colors flex items-center gap-2 text-sm font-medium">
+                        <span class="material-symbols-outlined text-lg">tune</span>
+                        More
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-soft border border-slate-100 overflow-hidden">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="border-b border-slate-50">
+                                <th
+                                    class="px-6 py-4 text-[11px] font-bold text-slate-400 uppercase tracking-widest bg-slate-50/30">
+                                    Property</th>
+                                <th
+                                    class="px-6 py-4 text-[11px] font-bold text-slate-400 uppercase tracking-widest bg-slate-50/30">
+                                    Location</th>
+                                <th
+                                    class="px-6 py-4 text-[11px] font-bold text-slate-400 uppercase tracking-widest bg-slate-50/30">
+                                    Status</th>
+                                <th
+                                    class="px-6 py-4 text-[11px] font-bold text-slate-400 uppercase tracking-widest bg-slate-50/30">
+                                    Details</th>
+                                <th
+                                    class="px-6 py-4 text-[11px] font-bold text-slate-400 uppercase tracking-widest bg-slate-50/30">
+                                    Price</th>
+                                <th
+                                    class="px-6 py-4 text-[11px] font-bold text-slate-400 uppercase tracking-widest bg-slate-50/30 text-right">
+                                    Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-50">
+                            <tr class="hover:bg-slate-50/50 transition-colors group">
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-4">
+                                        <div
+                                            class="h-14 w-20 rounded-lg overflow-hidden shrink-0 shadow-sm border border-slate-100">
+                                            <img alt="Property"
+                                                class="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYN1yNYBmm3PMVKR6irxSoXIhFEDu52ab0zPcChHvjYKseyasa-S1yDMGN-wLSkUNGkMV-_aqeShjR87dKZx1AWiE3ZBwu4eEYRekuR7B94FBim7sz6ia7_iq8eq3n9qUyD3YnWnXglB8Q_Xo5gK0svHdSZlJIz3TWtJMAfqw1iyZkqr8S_SpHI2isAz4UQ1QlgplcjWVBTz61WZ6anpJ_pNI0rlA1_X1qAtBxp5PCjY17Rs72xq-KJN-FEC_AzbqqhTsT4AAsPOiD" />
+                                        </div>
+                                        <div>
+                                            <h4 class="text-sm font-bold text-slate-900 truncate max-w-50">
+                                                Signature Villa, Frond N</h4>
+                                            <p class="text-[11px] text-slate-500 font-medium">Ref: PS-8829</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-1.5">
+                                        <span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                                        <span class="text-sm text-slate-600 font-medium">Palm Jumeirah, Dubai</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <span
+                                        class="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-1 text-[11px] font-bold text-emerald-700 border border-emerald-100">
+                                        Active
+                                    </span>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-3 text-slate-500">
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">bed</span>
+                                            <span class="text-xs font-semibold">6</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">bathtub</span>
+                                            <span class="text-xs font-semibold">7</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">square_foot</span>
+                                            <span class="text-xs font-semibold">12.5k sqft</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="text-sm font-bold text-slate-900">AED 15,250,000</div>
+                                    <div class="text-[10px] text-slate-400 font-medium uppercase">Last updated: 2d ago
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5 text-right">
+                                    <div class="flex justify-end gap-2">
+                                        <button
+                                            class="h-8 w-8 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-primary hover:text-white hover:border-primary transition-all">
+                                            <span class="material-symbols-outlined text-lg">edit</span>
+                                        </button>
+                                        <button
+                                            class="h-8 w-8 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-100 transition-all">
+                                            <span class="material-symbols-outlined text-lg">more_vert</span>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/50 transition-colors group">
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-4">
+                                        <div
+                                            class="h-14 w-20 rounded-lg overflow-hidden shrink-0 shadow-sm border border-slate-100">
+                                            <img alt="Property"
+                                                class="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYN1yNYBmm3PMVKR6irxSoXIhFEDu52ab0zPcChHvjYKseyasa-S1yDMGN-wLSkUNGkMV-_aqeShjR87dKZx1AWiE3ZBwu4eEYRekuR7B94FBim7sz6ia7_iq8eq3n9qUyD3YnWnXglB8Q_Xo5gK0svHdSZlJIz3TWtJMAfqw1iyZkqr8S_SpHI2isAz4UQ1QlgplcjWVBTz61WZ6anpJ_pNI0rlA1_X1qAtBxp5PCjY17Rs72xq-KJN-FEC_AzbqqhTsT4AAsPOiD" />
+                                        </div>
+                                        <div>
+                                            <h4 class="text-sm font-bold text-slate-900 truncate max-w-50">Opera
+                                                District Penthouse</h4>
+                                            <p class="text-[11px] text-slate-500 font-medium">Ref: PS-4412</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-1.5">
+                                        <span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                                        <span class="text-sm text-slate-600 font-medium">Downtown Dubai</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <span
+                                        class="inline-flex items-center rounded-full bg-amber-50 px-2.5 py-1 text-[11px] font-bold text-amber-700 border border-amber-100">
+                                        Pending
+                                    </span>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-3 text-slate-500">
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">bed</span>
+                                            <span class="text-xs font-semibold">4</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">bathtub</span>
+                                            <span class="text-xs font-semibold">5</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">square_foot</span>
+                                            <span class="text-xs font-semibold">4.2k sqft</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="text-sm font-bold text-slate-900">AED 8,900,000</div>
+                                    <div class="text-[10px] text-slate-400 font-medium uppercase">Last updated: 5h ago
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5 text-right">
+                                    <div class="flex justify-end gap-2">
+                                        <button
+                                            class="h-8 w-8 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-primary hover:text-white hover:border-primary transition-all">
+                                            <span class="material-symbols-outlined text-lg">edit</span>
+                                        </button>
+                                        <button
+                                            class="h-8 w-8 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-100 transition-all">
+                                            <span class="material-symbols-outlined text-lg">more_vert</span>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/50 transition-colors group">
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-4">
+                                        <div
+                                            class="h-14 w-20 rounded-lg overflow-hidden shrink-0 shadow-sm border border-slate-100">
+                                            <img alt="Property"
+                                                class="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9iMaO3LKzv_Dv5tCWpWy0mCjqRQn727-m_G6o_n9iU42JR4RA3xQA0iMEdYYDLb3UQr3ksxiAoclmjfAu8QxToOuAH3BofGUMy6_IqB4DZ_fdnzWl-IDLu3eAZjos3m31nqADZ5sva37Tz4llGbsjhQN6xEHSNLtDDAzwNYefMnj1N7riiTiALafnawOKywbCImovxBlAO_JwNOM7p5GAv3XhCDV1mBL0gfjN_Qgp22sqGw8HMblF8WcOYiYdnQEZouRpUKQ0D_Iv" />
+                                        </div>
+                                        <div>
+                                            <h4 class="text-sm font-bold text-slate-900 truncate max-w-50">Marina
+                                                Shores Apartment</h4>
+                                            <p class="text-[11px] text-slate-500 font-medium">Ref: PS-1205</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-1.5">
+                                        <span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                                        <span class="text-sm text-slate-600 font-medium">Dubai Marina</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <span
+                                        class="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-1 text-[11px] font-bold text-slate-600 border border-slate-200">
+                                        Sold
+                                    </span>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-3 text-slate-500">
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">bed</span>
+                                            <span class="text-xs font-semibold">2</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">bathtub</span>
+                                            <span class="text-xs font-semibold">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">square_foot</span>
+                                            <span class="text-xs font-semibold">1.8k sqft</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="text-sm font-bold text-slate-900">AED 3,250,000</div>
+                                    <div class="text-[10px] text-slate-400 font-medium uppercase">Last updated: 1w ago
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5 text-right">
+                                    <div class="flex justify-end gap-2">
+                                        <button
+                                            class="h-8 w-8 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-primary hover:text-white hover:border-primary transition-all">
+                                            <span class="material-symbols-outlined text-lg">edit</span>
+                                        </button>
+                                        <button
+                                            class="h-8 w-8 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-100 transition-all">
+                                            <span class="material-symbols-outlined text-lg">more_vert</span>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/50 transition-colors group">
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-4">
+                                        <div
+                                            class="h-14 w-20 rounded-lg overflow-hidden shrink-0 shadow-sm border border-slate-100">
+                                            <img alt="Property"
+                                                class="h-full w-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhaHc_p6msEJXmp5xbcgbxyr6NVsxx_325xsFcIfjP9GWTwLSzIUukSVo8uIEtwiCUEx7i5c0mXm2miQyarCI3x0dJ9ZTvZplKntUdgR47XHQw58QfGvye9PotgVyyfTAnFpbctxlMIOzwGEOmLF_cTqmnKWDz5L-dSuaYzUQiDIkekHk4CfMRmu905C6d4Flyn769NQMeuPF9VH5gBCcroX2ulWGKDzIUPv3t7XpELiR4JClds5iZBpwOGBxih5DdO_BuhteT7xMh" />
+                                        </div>
+                                        <div>
+                                            <h4 class="text-sm font-bold text-slate-900 truncate max-w-50">Emirates
+                                                Hills Mansion</h4>
+                                            <p class="text-[11px] text-slate-500 font-medium">Ref: PS-9901</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-1.5">
+                                        <span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                                        <span class="text-sm text-slate-600 font-medium">Sector E, Emirates Hills</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <span
+                                        class="inline-flex items-center rounded-full bg-emerald-50 px-2.5 py-1 text-[11px] font-bold text-emerald-700 border border-emerald-100">
+                                        Active
+                                    </span>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="flex items-center gap-3 text-slate-500">
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">bed</span>
+                                            <span class="text-xs font-semibold">8</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">bathtub</span>
+                                            <span class="text-xs font-semibold">10</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <span class="material-symbols-outlined text-sm">square_foot</span>
+                                            <span class="text-xs font-semibold">24k sqft</span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5">
+                                    <div class="text-sm font-bold text-slate-900">AED 45,000,000</div>
+                                    <div class="text-[10px] text-slate-400 font-medium uppercase">Last updated: 1d ago
+                                    </div>
+                                </td>
+                                <td class="px-6 py-5 text-right">
+                                    <div class="flex justify-end gap-2">
+                                        <button
+                                            class="h-8 w-8 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-primary hover:text-white hover:border-primary transition-all">
+                                            <span class="material-symbols-outlined text-lg">edit</span>
+                                        </button>
+                                        <button
+                                            class="h-8 w-8 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-100 transition-all">
+                                            <span class="material-symbols-outlined text-lg">more_vert</span>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="px-6 py-4 border-t border-slate-50 flex items-center justify-between">
+                    <span class="text-xs font-medium text-slate-500">Showing 1 to 4 of 12 listings</span>
+                    <div class="flex items-center gap-1">
+                        <button
+                            class="h-8 w-8 flex items-center justify-center rounded-lg border border-slate-200 text-slate-400 hover:bg-slate-50 disabled:opacity-50"
+                            disabled="">
+                            <span class="material-symbols-outlined text-lg">chevron_left</span>
+                        </button>
+                        <button
+                            class="h-8 w-8 flex items-center justify-center rounded-lg bg-primary text-white text-xs font-bold">1</button>
+                        <button
+                            class="h-8 w-8 flex items-center justify-center rounded-lg border border-slate-200 text-slate-600 text-xs font-bold hover:bg-slate-50 transition-colors">2</button>
+                        <button
+                            class="h-8 w-8 flex items-center justify-center rounded-lg border border-slate-200 text-slate-600 text-xs font-bold hover:bg-slate-50 transition-colors">3</button>
+                        <button
+                            class="h-8 w-8 flex items-center justify-center rounded-lg border border-slate-200 text-slate-400 hover:bg-slate-50">
+                            <span class="material-symbols-outlined text-lg">chevron_right</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow-soft border border-slate-100">
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Total Portfolio Value
+                    </p>
+                    <h3 class="text-2xl font-bold text-slate-900">AED 142.5M</h3>
+                    <div class="mt-2 flex items-center gap-1 text-[11px] text-emerald-600 font-bold">
+                        <span class="material-symbols-outlined text-[14px]">trending_up</span>
+                        <span>+4.2% from last month</span>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-soft border border-slate-100">
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Pending Inquiries</p>
+                    <h3 class="text-2xl font-bold text-slate-900">28 Active Leads</h3>
+                    <div class="mt-2 flex items-center gap-1 text-[11px] text-amber-600 font-bold">
+                        <span class="material-symbols-outlined text-[14px]">priority_high</span>
+                        <span>5 require immediate follow-up</span>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-soft border border-slate-100">
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Average Time to Sell
+                    </p>
+                    <h3 class="text-2xl font-bold text-slate-900">42 Days</h3>
+                    <div class="mt-2 flex items-center gap-1 text-[11px] text-primary font-bold">
+                        <span class="material-symbols-outlined text-[14px]">bolt</span>
+                        <span>Top 5% performing agent</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
